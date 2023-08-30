@@ -1,11 +1,12 @@
-package service;
+package service.impl;
 import model.Car;
 import org.springframework.stereotype.Component;
+import service.CarService;
 
 import java.util.ArrayList;
 import java.util.List;
 @Component
-public class CarServiceImp implements CarService{
+public class CarServiceImp implements CarService {
 
     private final List<Car> carsList;
 
