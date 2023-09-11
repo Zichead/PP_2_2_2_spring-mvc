@@ -20,7 +20,7 @@
     </thead>
     <tbody>
     <tr th:each="cars: ${cars}">
-        <td th:text="${cars.model}"/>
+        <td th:text="${cars.web.config.model}"/>
         <td th:text="${cars.series}"/>
         <td th:text="${cars.yearOfRelease}"/>
     </tr>

@@ -1,6 +1,6 @@
 package service;
 
-import model.Car;
+import web.model.Car;
 import org.springframework.stereotype.Controller;
 
 import java.util.List;
