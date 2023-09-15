@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" >
 <head>
     <meta charset="UTF-8">
     <title>Cars</title>
@@ -20,7 +19,7 @@
     </thead>
     <tbody>
     <tr th:each="cars: ${cars}">
-        <td th:text="${cars.web.config.model}"/>
+        <td th:text="${cars.model}"/>
         <td th:text="${cars.series}"/>
         <td th:text="${cars.yearOfRelease}"/>
     </tr>
